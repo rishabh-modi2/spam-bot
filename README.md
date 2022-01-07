@@ -2,7 +2,27 @@
 
 Simple WhatsApp Bot to help you in spam
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rishabh-modi2/spam-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+#to help you you can use my server/vps to get your session file just join https://t.me/spam_bot_by_rishabh msg /r ./spam you will get a ssh server adress and just
+join ssh server and run node main.js scan qr do ctrl + c and copy spam.data.json content using cat spam*
+ 
+# Currently you need to run this bot on termux/linux terminal to get session file.
+# after connect do ctrl+c and do cat spam.data.json  this will show you your session.
+now fork my repo to avoid ban of repo paste your session data in spam.data.json in your forked repo
+now just tap on deloy to heroku button hurray your spam bot is up
+
+
+
+## Spam COmmands
+.25 = 25 sticker spam
+.50 = 50 sticker spam
+.100 = 100 sticker spam
+.r =restart spam bot
+.i <text> = will send a image from google
+.tag = tag people in a group
+ 
+WIll add many more spam command if you want anything just raise a issue.
 
 ## FOR TERMUX/UBUNTU/SSH USER
 
