@@ -353,6 +353,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   }
 }
 handler.command = /^spam1$/i
+handler.owner = true
 
 module.exports = handler
 
