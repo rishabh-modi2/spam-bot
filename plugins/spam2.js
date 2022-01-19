@@ -1109,7 +1109,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   }
 }
 handler.command = /^spam2$/i
-
+handler.owner = true
 module.exports = handler
 
 const isUrl = (text) => {
